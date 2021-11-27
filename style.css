@@ -367,7 +367,6 @@ color: #fff;
     background-image:linear-gradient(to right,#08ff98 0%, #833ab4 100%);
 }
 
-<<<<<<< HEAD
 /* Mobile Responsive */
 @media screen and (max-width: 1100px) {
     .main__container {
@@ -407,4 +406,4 @@ color: #fff;
       margin-top: 1rem;
       font-size: 1.5rem;
     }
-
+  }
