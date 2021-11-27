@@ -355,16 +355,7 @@ color: #fff;
 }
 
 .main__img--card{
-    margin: 10px;
-    height: 500px;
-    width: 500px;
-    border-radius: 4px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    background-image:linear-gradient(to right,#08ff98 0%, #833ab4 100%);
+  content:url(https://www.pngrepo.com/png/165203/512/online-store-shopping-cart.png);
 }
 
 
