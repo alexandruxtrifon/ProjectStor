@@ -367,6 +367,18 @@ color: #fff;
     background-image:linear-gradient(to right,#08ff98 0%, #833ab4 100%);
 }
 
+
+.fa-layer-group,
+.fa-users {
+  font-size: 14rem;
+}
+
+#card-2 {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
+  background: linear-gradient(to right, #dd2476, #ff512f);
+}
+
 /* Mobile Responsive */
 @media screen and (max-width: 1100px) {
     .main__container {
@@ -430,7 +442,7 @@ color: #fff;
     margin-bottom: 5rem;
     font-size: 2.5rem;
   }
-
+   /* cartile colorate */
   .services__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -451,11 +463,38 @@ color: #fff;
   }
 
   .services__card:nth-child(2){
-    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
   }
   .services__card:nth-child(3){
-    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 100%);
+    background-image: linear-gradient(to right, #c471f5 0%, #3b2fe2 100%);
   }
   .services__card:nth-child(4){
     background-image: linear-gradient(to right, #f093fb 0%, #f5576c 100%);
+  }
+
+  .services__card h2 {
+    text-align: center;
+  }
+  .services__card p{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+  }
+  .services__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .services__card button{
+    color: #fff;
+    border: none;
+    outline:none;
+    border-radius: 4px;
+    background-image: #131313;
+    font-size: 1rem;
+  }
+  .services__card button:hover{
+    transform: scale(1.075);
+    transition: 0.3ease-in;
+    
   }
