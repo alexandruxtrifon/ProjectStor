@@ -451,5 +451,11 @@ color: #fff;
   }
 
   .services__card:nth-child(2){
-    
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 100%);
+  }
+  .services__card:nth-child(3){
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 100%);
+  }
+  .services__card:nth-child(4){
+    background-image: linear-gradient(to right, #f093fb 0%, #f5576c 100%);
   }
