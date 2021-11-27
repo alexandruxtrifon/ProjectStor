@@ -1,3 +1,3 @@
 # ProjectStor
-# jkh
+# Magazin cu de toate
 #
