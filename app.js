@@ -54,3 +54,6 @@ const hideMobileMenu = () => {
   menuLinks.addEventListener('click', hideMobileMenu);
   navLogo.addEventListener('click', hideMobileMenu);
   
+  function myFunction() {
+    location.assign("/FrontEnd/register.html")
+  }
