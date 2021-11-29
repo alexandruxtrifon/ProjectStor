@@ -54,6 +54,10 @@ const hideMobileMenu = () => {
   menuLinks.addEventListener('click', hideMobileMenu);
   navLogo.addEventListener('click', hideMobileMenu);
   
-  function myFunction() {
+  function signRedirect() {
     window.location.href=("FrontEnd/register.html")
+  }
+
+  function shopRedirect() {
+    window.location.href=("FrontEnd/product_page.html")
   }
