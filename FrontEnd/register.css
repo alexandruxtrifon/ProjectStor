@@ -156,6 +156,10 @@ form.sign-up-form{
     height: 41px;
     font-weight: 600;
     font-size: 0.8rem;
+    /*la butoane e de preferat sa te obisnuiesti sa pui un hover effect,
+    gen asta til schimba in manuta ca sa observi ca e deasupra la buton,
+    ti l-am scris ma jos ca sa ai pentru restul*/
+    cursor: pointer;
 }
 .right-panel .content{
     transform: translateX(800px);

@@ -55,5 +55,5 @@ const hideMobileMenu = () => {
   navLogo.addEventListener('click', hideMobileMenu);
   
   function myFunction() {
-    location.assign("/FrontEnd/register.html")
+    window.location.href=("/FrontEnd/register.html")
   }
