@@ -159,6 +159,18 @@ img{
     background-color: white;
     color: #202020;
 }
+
+@media screen and (min-width: 678px){
+    .item-list{
+      grid-template-columns: repeat(2, 1fr);  
+      gap: 32px;
+    }
+}
+@media screen and (min-width: 768px){
+    .item-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 /*.add-btn{
     background: linear-gradient(to right, #090171,#620169,#FF005A);
 }*/
